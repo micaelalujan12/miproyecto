@@ -4,7 +4,7 @@ const path = require('path');
 const mongoose = require('mongoose');
 const hbs = require('hbs');
 
-mongoose.connect('mongodb://localhost:27017/myapp').then(
+mongoose.connect('mongodb://localhost:27017/micomercio').then(
     () => console.log('Conexión a la base de datos exitosa'),
     (err) => console.error('Error al conectar a la base de datos:', err)
 );
